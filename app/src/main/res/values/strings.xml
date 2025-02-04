@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">lab2</string>
+    <string name="text1">Тут 1 кнопка</string>
+    <string name="text2">Тут 2 кнопки</string>
+    <string name="buttontext1">Сделать 2 кнопки</string>
+    <string name="buttontext2">Вернуться назад</string>
 </resources>
