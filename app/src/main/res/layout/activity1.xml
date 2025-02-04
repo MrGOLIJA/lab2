@@ -19,13 +19,23 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="52dp"
+        android:layout_marginStart="112dp"
 
         android:layout_marginTop="340dp"
+        android:onClick="back"
+        android:text="@string/buttontext2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="448dp"
         android:text="@string/buttontext2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:onClick="back"/>
+        android:onClick="show_toast"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

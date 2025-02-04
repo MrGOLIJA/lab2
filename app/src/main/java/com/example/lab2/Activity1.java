@@ -11,7 +11,7 @@ public class Activity1 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle bundle){
         super.onCreate(bundle);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity1);
     }
     public void back(View  view){
         Intent intent = new Intent(this, MainActivity.class);
